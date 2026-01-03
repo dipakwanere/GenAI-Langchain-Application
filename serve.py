@@ -31,7 +31,7 @@ app = FastAPI(
 )
 
 # IMPORTANT: path name
-add_routes(app, chain, path="/chain")
+add_routes(app, chain, path="/chain", enable_streaming=False)
 
 if __name__ == "__main__":
     import uvicorn

@@ -13,3 +13,4 @@ requests
 fastapi
 uvicorn
 langserve
+#sse-starlette  check if this is fixed or not
