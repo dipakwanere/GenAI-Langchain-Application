@@ -64,6 +64,13 @@ See the application runing:
 
 ![alt text](image.png)
 
+
+example of simple chain of title and topic to write an essay 
+![alt text](image-1.png)
+
+example of regular chain of title, topic, emotions and essay with JSON output
+![alt text](image-2.png)
+
 ============================================
 
 ## Run the FastAPI Application
