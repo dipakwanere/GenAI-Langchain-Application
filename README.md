@@ -25,9 +25,15 @@ FastAPI
 Uvicorn
 
 ## Project Structure (Example)
-.
+./GenAI Langchain Application
+
+├── Getting_Started/
+    ├── app.ipynb
+    └── using_groq.ipynb
 ├── app_streamlit.py      # Streamlit web app
 ├── app_fastapi.py        # FastAPI backend
+├── app_prompts.py        # Shows how to write and pass prompts
+├── chainofthought.py     # working with chains and joining output of first to seconds
 ├── requirements.txt
 ├── .env
 └── README.md
