@@ -74,8 +74,9 @@ example of regular chain of title, topic, emotions and essay with JSON output
 ============================================
 
 ## Run the FastAPI Application
-uvicorn app_fastapi:app --reload
-
+```
+uvicorn genai_web_app:app --reload
+```
 
 API will be available at:
 
@@ -86,20 +87,15 @@ Swagger UI:
 
 http://localhost:8000/docs
 
-🆓 Groq Free API – Important Limitations
+## Groq Free API – Important Limitations
 
 Works well for basic prompt-based GenAI
-
-❌ Not reliable for RAG (document embeddings, vector search, large context pipelines)
-
-❌ No persistent vector database support
-
-💡 RAG Support (Important Note)
+- Not reliable for RAG (document embeddings, vector search, large context pipelines)
+- No persistent vector database support
+- RAG Support (Important Note)
 
 If you want to build RAG-based applications, you will need:
-
 A paid LLM API (OpenAI / Azure OpenAI / Anthropic)
-
 Embedding models
 Vector databases (FAISS, Pinecone, Chroma, etc.)
 Groq free API is not recommended for production-grade RAG pipelines.
